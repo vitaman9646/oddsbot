@@ -1,0 +1,562 @@
+2026-02-27 05:23:00,473 [INFO] ==================================================
+2026-02-27 05:23:00,474 [INFO] Odds Bot v1.0 — VIRTUAL TRADING
+2026-02-27 05:23:00,474 [INFO] Min edge: 8.0%
+2026-02-27 05:23:00,474 [INFO] Min volume: $500.0
+2026-02-27 05:23:00,474 [INFO] Max days to expiry: 14
+2026-02-27 05:23:00,474 [INFO] Position size: $5.0
+2026-02-27 05:23:00,474 [INFO] Scan interval: 3600s
+2026-02-27 05:23:00,474 [INFO] ==================================================
+2026-02-27 05:23:03,565 [WARNING] Telegram error: 400
+2026-02-27 05:23:03,569 [INFO] ─── Scan #1 ───
+2026-02-27 05:23:03,569 [INFO] === Scan started ===
+2026-02-27 05:23:03,928 [INFO] Odds API: soccer_epl, 20 games, 499 requests left
+2026-02-27 05:23:04,568 [INFO] Odds API: soccer_uefa_champs_league, 0 games, 499 requests left
+2026-02-27 05:23:05,194 [INFO] Odds API: basketball_nba, 6 games, 498 requests left
+2026-02-27 05:23:05,829 [INFO] Odds API: soccer_spain_la_liga, 21 games, 497 requests left
+2026-02-27 05:23:07,408 [INFO] Polymarket: 2906 sport markets
+2026-02-27 05:23:07,412 [INFO] Bookmaker games: 47, Polymarket markets: 2906
+2026-02-27 05:23:20,838 [INFO] Scan done: 0 signals found
+2026-02-27 05:23:20,840 [INFO] No signals this scan
+2026-02-27 05:23:20,853 [INFO] Next scan in 3600s
+2026-02-27 05:29:16,350 [INFO] ==================================================
+2026-02-27 05:29:16,350 [INFO] Odds Bot v1.0 — VIRTUAL TRADING
+2026-02-27 05:29:16,350 [INFO] Min edge: 8.0%
+2026-02-27 05:29:16,350 [INFO] Min volume: $500.0
+2026-02-27 05:29:16,350 [INFO] Max days to expiry: 14
+2026-02-27 05:29:16,350 [INFO] Position size: $5.0
+2026-02-27 05:29:16,350 [INFO] Scan interval: 3600s
+2026-02-27 05:29:16,350 [INFO] ==================================================
+2026-02-27 05:29:16,450 [WARNING] Telegram error: 400
+2026-02-27 05:29:16,451 [INFO] ─── Scan #1 ───
+2026-02-27 05:29:16,451 [INFO] === Scan started ===
+2026-02-27 05:29:16,794 [INFO] Odds API: soccer_epl, 20 games, 494 requests left
+2026-02-27 05:29:17,406 [INFO] Odds API: soccer_uefa_champs_league, 0 games, 494 requests left
+2026-02-27 05:29:18,042 [INFO] Odds API: basketball_nba, 6 games, 493 requests left
+2026-02-27 05:29:18,668 [INFO] Odds API: soccer_spain_la_liga, 21 games, 492 requests left
+2026-02-27 05:29:19,886 [INFO] Polymarket: 2906 sport markets
+2026-02-27 05:29:19,892 [INFO] Bookmaker games: 47, Polymarket markets: 2906
+2026-02-27 05:29:32,382 [INFO] Scan done: 0 signals found
+2026-02-27 05:29:32,382 [INFO] No signals this scan
+2026-02-27 05:29:32,395 [INFO] Next scan in 3600s
+2026-02-27 06:13:38,733 [INFO] ==================================================
+2026-02-27 06:13:38,734 [INFO] Odds Bot v2.0 — VIRTUAL TRADING
+2026-02-27 06:13:38,734 [INFO] Min edge: 8.0%
+2026-02-27 06:13:38,734 [INFO] Scan interval: 3600s
+2026-02-27 06:13:38,734 [INFO] ==================================================
+2026-02-27 06:13:38,734 [INFO] --- Scan #1 ---
+2026-02-27 06:13:39,088 [INFO] Odds API: basketball_nba_championship_winner — 1 events, requests used/remaining: 13/487
+2026-02-27 06:13:39,088 [WARNING] High overround: 215.4% — data suspect
+2026-02-27 06:13:39,088 [WARNING] High overround: 116.5% — data suspect
+2026-02-27 06:13:39,088 [INFO] basketball_nba_championship_winner: 10 bookmakers, 30 teams
+2026-02-27 06:13:39,088 [INFO]   Oklahoma City Thunder: 32.2% (avg of 10 books)
+2026-02-27 06:13:39,088 [INFO]   Denver Nuggets: 11.4% (avg of 10 books)
+2026-02-27 06:13:39,088 [INFO]   Brooklyn Nets: 8.6% (avg of 9 books)
+2026-02-27 06:13:39,088 [INFO]   San Antonio Spurs: 8.2% (avg of 10 books)
+2026-02-27 06:13:39,088 [INFO]   Cleveland Cavaliers: 6.7% (avg of 10 books)
+2026-02-27 06:13:39,726 [INFO] Odds API: golf_masters_tournament_winner — 1 events, requests used/remaining: 17/483
+2026-02-27 06:13:39,726 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 06:13:39,726 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 06:13:39,727 [WARNING] High overround: 57.3% — data suspect
+2026-02-27 06:13:39,727 [WARNING] High overround: 70.9% — data suspect
+2026-02-27 06:13:39,728 [WARNING] High overround: 71.5% — data suspect
+2026-02-27 06:13:39,728 [WARNING] High overround: 74.4% — data suspect
+2026-02-27 06:13:39,730 [WARNING] High overround: 62.4% — data suspect
+2026-02-27 06:13:39,730 [WARNING] High overround: 467.5% — data suspect
+2026-02-27 06:13:39,730 [WARNING] High overround: 1066.2% — data suspect
+2026-02-27 06:13:39,730 [WARNING] High overround: 819.3% — data suspect
+2026-02-27 06:13:39,730 [INFO] golf_masters_tournament_winner: 11 bookmakers, 108 teams
+2026-02-27 06:13:39,731 [WARNING] golf_masters_tournament_winner: total fair prob = 1.349 (expected ~1.0)
+2026-02-27 06:13:39,731 [INFO]   Scottie Scheffler: 12.1% (avg of 11 books)
+2026-02-27 06:13:39,731 [INFO]   Christiaan Bezuidenhout: 6.2% (avg of 3 books)
+2026-02-27 06:13:39,731 [INFO]   Stephan Jaeger: 6.2% (avg of 3 books)
+2026-02-27 06:13:39,731 [INFO]   Lucas Glover: 6.2% (avg of 3 books)
+2026-02-27 06:13:39,731 [INFO]   Nicholas Dunlap: 6.2% (avg of 3 books)
+2026-02-27 06:13:40,382 [INFO] Odds API: icehockey_nhl_championship_winner — 1 events, requests used/remaining: 21/479
+2026-02-27 06:13:40,382 [INFO] icehockey_nhl_championship_winner: 10 bookmakers, 32 teams
+2026-02-27 06:13:40,382 [INFO]   Colorado Avalanche: 21.4% (avg of 10 books)
+2026-02-27 06:13:40,382 [INFO]   Tampa Bay Lightning: 15.2% (avg of 10 books)
+2026-02-27 06:13:40,382 [INFO]   Carolina Hurricanes: 11.5% (avg of 10 books)
+2026-02-27 06:13:40,382 [INFO]   Vegas Golden Knights: 8.2% (avg of 10 books)
+2026-02-27 06:13:40,382 [INFO]   Edmonton Oilers: 6.9% (avg of 10 books)
+2026-02-27 06:13:41,012 [INFO] Odds API: soccer_fifa_world_cup_winner — 1 events, requests used/remaining: 25/475
+2026-02-27 06:13:41,013 [WARNING] High overround: 55.6% — data suspect
+2026-02-27 06:13:41,013 [WARNING] High overround: 55.7% — data suspect
+2026-02-27 06:13:41,013 [INFO] soccer_fifa_world_cup_winner: 9 bookmakers, 64 teams
+2026-02-27 06:13:41,014 [INFO]   Spain: 14.1% (avg of 9 books)
+2026-02-27 06:13:41,014 [INFO]   England: 11.8% (avg of 9 books)
+2026-02-27 06:13:41,014 [INFO]   France: 9.5% (avg of 9 books)
+2026-02-27 06:13:41,014 [INFO]   Brazil: 8.7% (avg of 9 books)
+2026-02-27 06:13:41,014 [INFO]   Argentina: 8.7% (avg of 9 books)
+2026-02-27 06:13:41,515 [INFO] Fetched odds for 4/4 sports
+2026-02-27 06:13:41,515 [INFO] basketball_nba_championship_winner: 30 teams
+2026-02-27 06:13:41,515 [INFO] golf_masters_tournament_winner: 108 teams
+2026-02-27 06:13:41,515 [INFO] icehockey_nhl_championship_winner: 32 teams
+2026-02-27 06:13:41,515 [INFO] soccer_fifa_world_cup_winner: 64 teams
+2026-02-27 06:26:43,692 [INFO] ==================================================
+2026-02-27 06:26:43,696 [INFO] Odds Bot v2.0 — VIRTUAL TRADING
+2026-02-27 06:26:43,696 [INFO] Min edge: 8.0%
+2026-02-27 06:26:43,697 [INFO] Scan interval: 3600s
+2026-02-27 06:26:43,697 [INFO] ==================================================
+2026-02-27 06:26:43,697 [INFO] --- Scan #1 ---
+2026-02-27 06:26:44,034 [INFO] Odds API: basketball_nba_championship_winner — 1 events, requests used/remaining: 29/471
+2026-02-27 06:26:44,034 [WARNING] High overround: 215.4% — data suspect
+2026-02-27 06:26:44,034 [WARNING] High overround: 116.5% — data suspect
+2026-02-27 06:26:44,035 [INFO] basketball_nba_championship_winner: 10 bookmakers, 30 teams
+2026-02-27 06:26:44,035 [INFO]   Oklahoma City Thunder: 32.2% (avg of 10 books)
+2026-02-27 06:26:44,036 [INFO]   Denver Nuggets: 11.4% (avg of 10 books)
+2026-02-27 06:26:44,036 [INFO]   Brooklyn Nets: 8.6% (avg of 9 books)
+2026-02-27 06:26:44,036 [INFO]   San Antonio Spurs: 8.2% (avg of 10 books)
+2026-02-27 06:26:44,036 [INFO]   Cleveland Cavaliers: 6.7% (avg of 10 books)
+2026-02-27 06:26:44,667 [INFO] Odds API: golf_masters_tournament_winner — 1 events, requests used/remaining: 33/467
+2026-02-27 06:26:44,667 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 06:26:44,667 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 06:26:44,667 [WARNING] High overround: 57.3% — data suspect
+2026-02-27 06:26:44,667 [WARNING] High overround: 70.9% — data suspect
+2026-02-27 06:26:44,668 [WARNING] High overround: 71.5% — data suspect
+2026-02-27 06:26:44,668 [WARNING] High overround: 69.4% — data suspect
+2026-02-27 06:26:44,668 [WARNING] High overround: 74.4% — data suspect
+2026-02-27 06:26:44,668 [WARNING] High overround: 62.4% — data suspect
+2026-02-27 06:26:44,668 [WARNING] High overround: 467.7% — data suspect
+2026-02-27 06:26:44,668 [WARNING] High overround: 1066.4% — data suspect
+2026-02-27 06:26:44,669 [WARNING] High overround: 819.6% — data suspect
+2026-02-27 06:26:44,669 [INFO] golf_masters_tournament_winner: 12 bookmakers, 122 teams
+2026-02-27 06:26:44,669 [WARNING] golf_masters_tournament_winner: total fair prob = 1.300 (expected ~1.0)
+2026-02-27 06:26:44,669 [INFO]   Scottie Scheffler: 12.3% (avg of 12 books)
+2026-02-27 06:26:44,669 [INFO]   Rory McIlroy: 6.1% (avg of 12 books)
+2026-02-27 06:26:44,669 [INFO]   Christiaan Bezuidenhout: 4.7% (avg of 4 books)
+2026-02-27 06:26:44,670 [INFO]   Lucas Glover: 4.7% (avg of 4 books)
+2026-02-27 06:26:44,670 [INFO]   Stephan Jaeger: 4.7% (avg of 4 books)
+2026-02-27 06:26:45,326 [INFO] Odds API: icehockey_nhl_championship_winner — 1 events, requests used/remaining: 37/463
+2026-02-27 06:26:45,326 [INFO] icehockey_nhl_championship_winner: 10 bookmakers, 32 teams
+2026-02-27 06:26:45,326 [INFO]   Colorado Avalanche: 21.4% (avg of 10 books)
+2026-02-27 06:26:45,326 [INFO]   Tampa Bay Lightning: 15.2% (avg of 10 books)
+2026-02-27 06:26:45,326 [INFO]   Carolina Hurricanes: 11.5% (avg of 10 books)
+2026-02-27 06:26:45,326 [INFO]   Vegas Golden Knights: 8.2% (avg of 10 books)
+2026-02-27 06:26:45,326 [INFO]   Edmonton Oilers: 6.9% (avg of 10 books)
+2026-02-27 06:26:45,967 [INFO] Odds API: soccer_fifa_world_cup_winner — 1 events, requests used/remaining: 41/459
+2026-02-27 06:26:45,969 [WARNING] High overround: 55.6% — data suspect
+2026-02-27 06:26:45,969 [WARNING] High overround: 55.7% — data suspect
+2026-02-27 06:26:45,969 [INFO] soccer_fifa_world_cup_winner: 9 bookmakers, 64 teams
+2026-02-27 06:26:45,970 [INFO]   Spain: 14.1% (avg of 9 books)
+2026-02-27 06:26:45,970 [INFO]   England: 11.8% (avg of 9 books)
+2026-02-27 06:26:45,970 [INFO]   France: 9.5% (avg of 9 books)
+2026-02-27 06:26:45,970 [INFO]   Brazil: 8.7% (avg of 9 books)
+2026-02-27 06:26:45,970 [INFO]   Argentina: 8.7% (avg of 9 books)
+2026-02-27 06:26:46,471 [INFO] Fetched odds for 4/4 sports
+2026-02-27 06:26:46,471 [INFO] basketball_nba_championship_winner: 30 teams
+2026-02-27 06:26:46,472 [INFO] golf_masters_tournament_winner: 122 teams
+2026-02-27 06:26:46,472 [INFO] icehockey_nhl_championship_winner: 32 teams
+2026-02-27 06:26:46,472 [INFO] soccer_fifa_world_cup_winner: 64 teams
+2026-02-27 06:39:20,511 [INFO] ==================================================
+2026-02-27 06:39:20,511 [INFO] Odds Bot v2.0 — VIRTUAL TRADING
+2026-02-27 06:39:20,511 [INFO] Min edge: 8.0%
+2026-02-27 06:39:20,511 [INFO] Scan interval: 3600s
+2026-02-27 06:39:20,512 [INFO] ==================================================
+2026-02-27 06:39:20,512 [INFO] --- Scan #1 ---
+2026-02-27 06:39:20,831 [INFO] Odds API: basketball_nba_championship_winner — 1 events, requests used/remaining: 53/447
+2026-02-27 06:39:20,832 [WARNING] High overround: 215.4% — data suspect
+2026-02-27 06:39:20,832 [WARNING] High overround: 116.5% — data suspect
+2026-02-27 06:39:20,834 [INFO] basketball_nba_championship_winner: 7 bookmakers, 30 teams
+2026-02-27 06:39:20,834 [INFO]   Oklahoma City Thunder: 36.7% (avg of 7 books)
+2026-02-27 06:39:20,835 [INFO]   Denver Nuggets: 13.2% (avg of 7 books)
+2026-02-27 06:39:20,835 [INFO]   San Antonio Spurs: 9.2% (avg of 7 books)
+2026-02-27 06:39:20,835 [INFO]   Cleveland Cavaliers: 7.6% (avg of 7 books)
+2026-02-27 06:39:20,835 [INFO]   Boston Celtics: 7.1% (avg of 7 books)
+2026-02-27 06:39:21,462 [INFO] Odds API: golf_masters_tournament_winner — 1 events, requests used/remaining: 57/443
+2026-02-27 06:39:21,463 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 06:39:21,463 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 06:39:21,463 [WARNING] High overround: 57.3% — data suspect
+2026-02-27 06:39:21,464 [WARNING] High overround: 70.9% — data suspect
+2026-02-27 06:39:21,464 [WARNING] High overround: 71.5% — data suspect
+2026-02-27 06:39:21,464 [WARNING] High overround: 69.4% — data suspect
+2026-02-27 06:39:21,464 [WARNING] High overround: 74.4% — data suspect
+2026-02-27 06:39:21,464 [WARNING] High overround: 62.4% — data suspect
+2026-02-27 06:39:21,464 [WARNING] High overround: 467.7% — data suspect
+2026-02-27 06:39:21,464 [WARNING] High overround: 1066.4% — data suspect
+2026-02-27 06:39:21,464 [WARNING] High overround: 819.6% — data suspect
+2026-02-27 06:39:21,464 [INFO] golf_masters_tournament_winner: 9 bookmakers, 119 teams
+2026-02-27 06:39:21,465 [WARNING] golf_masters_tournament_winner: total fair prob = 1.104 (expected ~1.0)
+2026-02-27 06:39:21,466 [INFO]   Scottie Scheffler: 15.5% (avg of 9 books)
+2026-02-27 06:39:21,466 [INFO]   Rory McIlroy: 7.7% (avg of 9 books)
+2026-02-27 06:39:21,466 [INFO]   Bryson DeChambeau: 4.1% (avg of 9 books)
+2026-02-27 06:39:21,466 [INFO]   Jon Rahm: 3.6% (avg of 9 books)
+2026-02-27 06:39:21,466 [INFO]   Xander Schauffele: 3.5% (avg of 9 books)
+2026-02-27 06:39:22,098 [INFO] Odds API: icehockey_nhl_championship_winner — 1 events, requests used/remaining: 61/439
+2026-02-27 06:39:22,098 [INFO] icehockey_nhl_championship_winner: 10 bookmakers, 32 teams
+2026-02-27 06:39:22,099 [INFO]   Colorado Avalanche: 21.4% (avg of 10 books)
+2026-02-27 06:39:22,099 [INFO]   Tampa Bay Lightning: 15.2% (avg of 10 books)
+2026-02-27 06:39:22,099 [INFO]   Carolina Hurricanes: 11.4% (avg of 10 books)
+2026-02-27 06:39:22,099 [INFO]   Vegas Golden Knights: 8.1% (avg of 10 books)
+2026-02-27 06:39:22,099 [INFO]   Edmonton Oilers: 7.1% (avg of 10 books)
+2026-02-27 06:39:22,722 [INFO] Odds API: soccer_fifa_world_cup_winner — 1 events, requests used/remaining: 65/435
+2026-02-27 06:39:22,722 [WARNING] High overround: 55.6% — data suspect
+2026-02-27 06:39:22,722 [WARNING] High overround: 55.7% — data suspect
+2026-02-27 06:39:22,722 [INFO] soccer_fifa_world_cup_winner: 6 bookmakers, 64 teams
+2026-02-27 06:39:22,722 [INFO]   Spain: 15.0% (avg of 6 books)
+2026-02-27 06:39:22,723 [INFO]   England: 12.4% (avg of 6 books)
+2026-02-27 06:39:22,723 [INFO]   France: 10.1% (avg of 6 books)
+2026-02-27 06:39:22,723 [INFO]   Brazil: 9.2% (avg of 6 books)
+2026-02-27 06:39:22,723 [INFO]   Argentina: 9.0% (avg of 6 books)
+2026-02-27 06:39:23,225 [INFO] Fetched odds for 4/4 sports
+2026-02-27 06:39:23,225 [INFO] basketball_nba_championship_winner: 30 teams
+2026-02-27 06:39:23,225 [INFO] golf_masters_tournament_winner: 119 teams
+2026-02-27 06:39:23,225 [INFO] icehockey_nhl_championship_winner: 32 teams
+2026-02-27 06:39:23,225 [INFO] soccer_fifa_world_cup_winner: 64 teams
+2026-02-27 06:58:49,350 [INFO] ==================================================
+2026-02-27 06:58:49,351 [INFO] Odds Bot v2.0 — VIRTUAL TRADING
+2026-02-27 06:58:49,351 [INFO] Min edge: 8.0%
+2026-02-27 06:58:49,351 [INFO] Scan interval: 3600s
+2026-02-27 06:58:49,351 [INFO] ==================================================
+2026-02-27 06:58:49,351 [INFO] --- Scan #1 ---
+2026-02-27 06:58:49,684 [INFO] Odds API: basketball_nba_championship_winner — 1 events, requests used/remaining: 69/431
+2026-02-27 06:58:49,684 [INFO] basketball_nba_championship_winner: 7 bookmakers, 30 teams
+2026-02-27 06:58:49,684 [INFO]   Oklahoma City Thunder: 36.7% (avg of 7 books)
+2026-02-27 06:58:49,684 [INFO]   Denver Nuggets: 13.2% (avg of 7 books)
+2026-02-27 06:58:49,684 [INFO]   San Antonio Spurs: 9.2% (avg of 7 books)
+2026-02-27 06:58:49,684 [INFO]   Cleveland Cavaliers: 7.6% (avg of 7 books)
+2026-02-27 06:58:49,684 [INFO]   Boston Celtics: 7.1% (avg of 7 books)
+2026-02-27 06:58:50,389 [INFO] Odds API: golf_masters_tournament_winner — 1 events, requests used/remaining: 73/427
+2026-02-27 06:58:50,389 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 06:58:50,390 [WARNING] High overround: 57.3% — data suspect
+2026-02-27 06:58:50,390 [WARNING] High overround: 70.9% — data suspect
+2026-02-27 06:58:50,395 [WARNING] High overround: 71.5% — data suspect
+2026-02-27 06:58:50,404 [WARNING] High overround: 62.4% — data suspect
+2026-02-27 06:58:50,506 [INFO] golf_masters_tournament_winner: 6 bookmakers, 99 teams
+2026-02-27 06:58:50,507 [WARNING] golf_masters_tournament_winner: total fair prob = 1.066 (expected ~1.0)
+2026-02-27 06:58:50,508 [INFO]   Scottie Scheffler: 15.8% (avg of 6 books)
+2026-02-27 06:58:50,508 [INFO]   Rory McIlroy: 7.7% (avg of 6 books)
+2026-02-27 06:58:50,508 [INFO]   Bryson DeChambeau: 4.4% (avg of 6 books)
+2026-02-27 06:58:50,508 [INFO]   Jon Rahm: 3.6% (avg of 6 books)
+2026-02-27 06:58:50,508 [INFO]   Xander Schauffele: 3.4% (avg of 6 books)
+2026-02-27 06:58:51,146 [INFO] Odds API: icehockey_nhl_championship_winner — 1 events, requests used/remaining: 77/423
+2026-02-27 06:58:51,146 [INFO] icehockey_nhl_championship_winner: 8 bookmakers, 32 teams
+2026-02-27 06:58:51,147 [INFO]   Colorado Avalanche: 21.2% (avg of 8 books)
+2026-02-27 06:58:51,147 [INFO]   Tampa Bay Lightning: 15.2% (avg of 8 books)
+2026-02-27 06:58:51,147 [INFO]   Carolina Hurricanes: 11.1% (avg of 8 books)
+2026-02-27 06:58:51,147 [INFO]   Vegas Golden Knights: 8.2% (avg of 8 books)
+2026-02-27 06:58:51,147 [INFO]   Edmonton Oilers: 7.1% (avg of 8 books)
+2026-02-27 06:58:51,767 [INFO] Odds API: soccer_fifa_world_cup_winner — 1 events, requests used/remaining: 81/419
+2026-02-27 06:58:51,767 [INFO] soccer_fifa_world_cup_winner: 4 bookmakers, 64 teams
+2026-02-27 06:58:51,768 [INFO]   Spain: 14.7% (avg of 4 books)
+2026-02-27 06:58:51,768 [INFO]   England: 12.2% (avg of 4 books)
+2026-02-27 06:58:51,768 [INFO]   France: 9.9% (avg of 4 books)
+2026-02-27 06:58:51,768 [INFO]   Brazil: 9.2% (avg of 4 books)
+2026-02-27 06:58:51,768 [INFO]   Argentina: 9.0% (avg of 4 books)
+2026-02-27 06:58:52,269 [INFO] Fetched odds for 4/4 sports
+2026-02-27 06:58:52,269 [INFO] basketball_nba_championship_winner: 30 teams
+2026-02-27 06:58:52,269 [INFO] golf_masters_tournament_winner: 99 teams
+2026-02-27 06:58:52,269 [INFO] icehockey_nhl_championship_winner: 32 teams
+2026-02-27 06:58:52,269 [INFO] soccer_fifa_world_cup_winner: 64 teams
+2026-02-27 07:04:56,240 [INFO] ==================================================
+2026-02-27 07:04:56,241 [INFO] Odds Bot v2.0 — VIRTUAL TRADING
+2026-02-27 07:04:56,241 [INFO] Min edge: 8.0%
+2026-02-27 07:04:56,241 [INFO] Scan interval: 3600s
+2026-02-27 07:04:56,241 [INFO] ==================================================
+2026-02-27 07:04:56,241 [INFO] --- Scan #1 ---
+2026-02-27 07:04:56,544 [INFO] Odds API: basketball_nba_championship_winner — 1 events, requests used/remaining: 93/407
+2026-02-27 07:04:56,545 [INFO] basketball_nba_championship_winner: 7 bookmakers, 30 teams
+2026-02-27 07:04:56,546 [INFO]   Oklahoma City Thunder: 36.7% (avg of 7 books)
+2026-02-27 07:04:56,546 [INFO]   Denver Nuggets: 13.2% (avg of 7 books)
+2026-02-27 07:04:56,546 [INFO]   San Antonio Spurs: 9.2% (avg of 7 books)
+2026-02-27 07:04:56,546 [INFO]   Cleveland Cavaliers: 7.6% (avg of 7 books)
+2026-02-27 07:04:56,546 [INFO]   Boston Celtics: 7.1% (avg of 7 books)
+2026-02-27 07:04:57,179 [INFO] Odds API: golf_masters_tournament_winner — 1 events, requests used/remaining: 97/403
+2026-02-27 07:04:57,179 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 07:04:57,179 [WARNING] High overround: 57.3% — data suspect
+2026-02-27 07:04:57,179 [WARNING] High overround: 70.9% — data suspect
+2026-02-27 07:04:57,179 [WARNING] High overround: 71.5% — data suspect
+2026-02-27 07:04:57,180 [WARNING] High overround: 62.4% — data suspect
+2026-02-27 07:04:57,180 [INFO] golf_masters_tournament_winner: 6 bookmakers, 99 teams
+2026-02-27 07:04:57,180 [WARNING] golf_masters_tournament_winner: total fair prob = 1.066 (expected ~1.0)
+2026-02-27 07:04:57,181 [INFO]   Scottie Scheffler: 15.8% (avg of 6 books)
+2026-02-27 07:04:57,181 [INFO]   Rory McIlroy: 7.7% (avg of 6 books)
+2026-02-27 07:04:57,181 [INFO]   Bryson DeChambeau: 4.4% (avg of 6 books)
+2026-02-27 07:04:57,181 [INFO]   Jon Rahm: 3.6% (avg of 6 books)
+2026-02-27 07:04:57,181 [INFO]   Xander Schauffele: 3.4% (avg of 6 books)
+2026-02-27 07:04:57,820 [INFO] Odds API: icehockey_nhl_championship_winner — 1 events, requests used/remaining: 101/399
+2026-02-27 07:04:57,822 [INFO] icehockey_nhl_championship_winner: 8 bookmakers, 32 teams
+2026-02-27 07:04:57,822 [INFO]   Colorado Avalanche: 21.2% (avg of 8 books)
+2026-02-27 07:04:57,822 [INFO]   Tampa Bay Lightning: 15.2% (avg of 8 books)
+2026-02-27 07:04:57,822 [INFO]   Carolina Hurricanes: 11.1% (avg of 8 books)
+2026-02-27 07:04:57,823 [INFO]   Vegas Golden Knights: 8.2% (avg of 8 books)
+2026-02-27 07:04:57,823 [INFO]   Edmonton Oilers: 7.1% (avg of 8 books)
+2026-02-27 07:04:58,439 [INFO] Odds API: soccer_fifa_world_cup_winner — 1 events, requests used/remaining: 105/395
+2026-02-27 07:04:58,439 [INFO] soccer_fifa_world_cup_winner: 4 bookmakers, 64 teams
+2026-02-27 07:04:58,441 [INFO]   Spain: 14.7% (avg of 4 books)
+2026-02-27 07:04:58,441 [INFO]   England: 12.2% (avg of 4 books)
+2026-02-27 07:04:58,441 [INFO]   France: 9.9% (avg of 4 books)
+2026-02-27 07:04:58,441 [INFO]   Brazil: 9.2% (avg of 4 books)
+2026-02-27 07:04:58,441 [INFO]   Argentina: 9.0% (avg of 4 books)
+2026-02-27 07:04:58,942 [INFO] Fetched odds for 4/4 sports
+2026-02-27 07:04:58,942 [INFO] basketball_nba_championship_winner: 30 teams
+2026-02-27 07:04:58,942 [INFO] golf_masters_tournament_winner: 99 teams
+2026-02-27 07:04:58,942 [INFO] icehockey_nhl_championship_winner: 32 teams
+2026-02-27 07:04:58,942 [INFO] soccer_fifa_world_cup_winner: 64 teams
+2026-02-27 07:19:21,113 [INFO] ==================================================
+2026-02-27 07:19:21,114 [INFO] Odds Bot v2.0 — VIRTUAL TRADING
+2026-02-27 07:19:21,114 [INFO] Min edge: 8.0%
+2026-02-27 07:19:21,114 [INFO] Scan interval: 3600s
+2026-02-27 07:19:21,114 [INFO] ==================================================
+2026-02-27 07:19:21,114 [INFO] --- Scan #1 ---
+2026-02-27 07:19:21,434 [INFO] Odds API: basketball_nba_championship_winner — 1 events, requests used/remaining: 125/375
+2026-02-27 07:19:21,436 [INFO] basketball_nba_championship_winner: 7 bookmakers, 30 teams
+2026-02-27 07:19:21,437 [INFO]   Oklahoma City Thunder: 36.7% (avg of 7 books)
+2026-02-27 07:19:21,437 [INFO]   Denver Nuggets: 13.2% (avg of 7 books)
+2026-02-27 07:19:21,437 [INFO]   San Antonio Spurs: 9.2% (avg of 7 books)
+2026-02-27 07:19:21,440 [INFO]   Cleveland Cavaliers: 7.6% (avg of 7 books)
+2026-02-27 07:19:21,440 [INFO]   Boston Celtics: 7.1% (avg of 7 books)
+2026-02-27 07:19:22,083 [INFO] Odds API: golf_masters_tournament_winner — 1 events, requests used/remaining: 129/371
+2026-02-27 07:19:22,083 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 07:19:22,083 [WARNING] High overround: 57.3% — data suspect
+2026-02-27 07:19:22,083 [WARNING] High overround: 70.9% — data suspect
+2026-02-27 07:19:22,084 [WARNING] High overround: 71.5% — data suspect
+2026-02-27 07:19:22,084 [WARNING] High overround: 62.4% — data suspect
+2026-02-27 07:19:22,084 [INFO] golf_masters_tournament_winner: 6 bookmakers, 99 teams
+2026-02-27 07:19:22,085 [WARNING] golf_masters_tournament_winner: total fair prob = 1.066 (expected ~1.0)
+2026-02-27 07:19:22,085 [INFO]   Scottie Scheffler: 15.8% (avg of 6 books)
+2026-02-27 07:19:22,085 [INFO]   Rory McIlroy: 7.7% (avg of 6 books)
+2026-02-27 07:19:22,085 [INFO]   Bryson DeChambeau: 4.4% (avg of 6 books)
+2026-02-27 07:19:22,085 [INFO]   Jon Rahm: 3.6% (avg of 6 books)
+2026-02-27 07:19:22,085 [INFO]   Xander Schauffele: 3.4% (avg of 6 books)
+2026-02-27 07:19:22,708 [INFO] Odds API: icehockey_nhl_championship_winner — 1 events, requests used/remaining: 133/367
+2026-02-27 07:19:22,708 [INFO] icehockey_nhl_championship_winner: 8 bookmakers, 32 teams
+2026-02-27 07:19:22,708 [INFO]   Colorado Avalanche: 21.2% (avg of 8 books)
+2026-02-27 07:19:22,708 [INFO]   Tampa Bay Lightning: 15.4% (avg of 8 books)
+2026-02-27 07:19:22,708 [INFO]   Carolina Hurricanes: 11.1% (avg of 8 books)
+2026-02-27 07:19:22,708 [INFO]   Vegas Golden Knights: 8.2% (avg of 8 books)
+2026-02-27 07:19:22,708 [INFO]   Edmonton Oilers: 7.1% (avg of 8 books)
+2026-02-27 07:19:23,346 [INFO] Odds API: soccer_fifa_world_cup_winner — 1 events, requests used/remaining: 137/363
+2026-02-27 07:19:23,351 [INFO] soccer_fifa_world_cup_winner: 4 bookmakers, 64 teams
+2026-02-27 07:19:23,359 [INFO]   Spain: 14.7% (avg of 4 books)
+2026-02-27 07:19:23,360 [INFO]   England: 12.2% (avg of 4 books)
+2026-02-27 07:19:23,360 [INFO]   France: 9.9% (avg of 4 books)
+2026-02-27 07:19:23,360 [INFO]   Brazil: 9.2% (avg of 4 books)
+2026-02-27 07:19:23,360 [INFO]   Argentina: 9.0% (avg of 4 books)
+2026-02-27 07:19:23,861 [INFO] Fetched odds for 4/4 sports
+2026-02-27 07:19:23,861 [INFO] basketball_nba_championship_winner: 30 teams
+2026-02-27 07:19:23,861 [INFO] golf_masters_tournament_winner: 99 teams
+2026-02-27 07:19:23,861 [INFO] icehockey_nhl_championship_winner: 32 teams
+2026-02-27 07:19:23,861 [INFO] soccer_fifa_world_cup_winner: 64 teams
+2026-02-27 07:24:32,552 [INFO] ==================================================
+2026-02-27 07:24:32,552 [INFO] Odds Bot v2.0 — VIRTUAL TRADING
+2026-02-27 07:24:32,552 [INFO] Min edge: 8.0%
+2026-02-27 07:24:32,552 [INFO] Scan interval: 3600s
+2026-02-27 07:24:32,553 [INFO] ==================================================
+2026-02-27 07:24:32,638 [WARNING] Telegram error: 400
+2026-02-27 07:24:32,640 [INFO] --- Scan #1 ---
+2026-02-27 07:24:32,964 [INFO] Odds API: basketball_nba_championship_winner — 1 events, requests used/remaining: 145/355
+2026-02-27 07:24:32,964 [INFO] basketball_nba_championship_winner: 7 bookmakers, 30 teams
+2026-02-27 07:24:33,726 [INFO] Matched 30/30 teams
+2026-02-27 07:24:33,727 [INFO] basketball_nba_championship_winner: 0 signals found
+2026-02-27 07:24:34,356 [INFO] Odds API: icehockey_nhl_championship_winner — 1 events, requests used/remaining: 149/351
+2026-02-27 07:24:34,356 [INFO] icehockey_nhl_championship_winner: 8 bookmakers, 32 teams
+2026-02-27 07:24:35,378 [INFO] Matched 32/32 teams
+2026-02-27 07:24:35,379 [WARNING] Fuzzy match: 'St Louis Blues' ↔ 'St. Louis Blues' (confidence: 0.97) — VERIFY MANUALLY
+2026-02-27 07:24:35,379 [WARNING] Fuzzy match: 'Montréal Canadiens' ↔ 'Montreal Canadiens' (confidence: 0.94) — VERIFY MANUALLY
+2026-02-27 07:24:35,379 [INFO] icehockey_nhl_championship_winner: 0 signals found
+2026-02-27 07:24:36,021 [INFO] Odds API: golf_masters_tournament_winner — 1 events, requests used/remaining: 153/347
+2026-02-27 07:24:36,021 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 07:24:36,021 [WARNING] High overround: 57.3% — data suspect
+2026-02-27 07:24:36,021 [WARNING] High overround: 70.9% — data suspect
+2026-02-27 07:24:36,021 [WARNING] High overround: 71.5% — data suspect
+2026-02-27 07:24:36,022 [WARNING] High overround: 62.4% — data suspect
+2026-02-27 07:24:36,023 [INFO] golf_masters_tournament_winner: 6 bookmakers, 99 teams
+2026-02-27 07:24:36,023 [WARNING] golf_masters_tournament_winner: total fair prob = 1.066 (expected ~1.0)
+2026-02-27 07:24:37,167 [INFO] Matched 58/99 teams
+2026-02-27 07:24:37,168 [WARNING] Unmatched bookmaker teams: ['Christopher Gotterup', 'Ben Griffin', 'Si Woo Kim', 'Jacob Bridgeman', 'Marco Penge', 'Joohyung Kim', 'Harris English', 'J. J. Spaun', 'Alexander Noren', 'Matt McCarty']
+2026-02-27 07:24:37,168 [WARNING] Fuzzy match: 'Matthew Fitzpatrick' ↔ 'Matt Fitzpatrick' (confidence: 0.91) — VERIFY MANUALLY
+2026-02-27 07:24:37,169 [INFO] golf_masters_tournament_winner: 0 signals found
+2026-02-27 07:24:37,670 [INFO] No signals this scan
+2026-02-27 07:24:37,670 [INFO] Next scan in 3600s
+2026-02-27 07:37:49,523 [INFO] ==================================================
+2026-02-27 07:37:49,524 [INFO] Odds Bot v2.0 — VIRTUAL TRADING
+2026-02-27 07:37:49,524 [INFO] Min edge: 8.0%
+2026-02-27 07:37:49,524 [INFO] Scan interval: 3600s
+2026-02-27 07:37:49,524 [INFO] ==================================================
+2026-02-27 07:37:49,607 [INFO] --- Scan #1 ---
+2026-02-27 07:37:49,929 [INFO] Odds API: basketball_nba_championship_winner — 1 events, requests used/remaining: 157/343
+2026-02-27 07:37:49,929 [INFO] basketball_nba_championship_winner: 7 bookmakers, 30 teams
+2026-02-27 07:37:50,633 [INFO] Matched 30/30 teams
+2026-02-27 07:37:50,634 [INFO] basketball_nba_championship_winner: 0 signals found
+2026-02-27 07:37:51,257 [INFO] Odds API: icehockey_nhl_championship_winner — 1 events, requests used/remaining: 161/339
+2026-02-27 07:37:51,258 [INFO] icehockey_nhl_championship_winner: 8 bookmakers, 32 teams
+2026-02-27 07:37:51,840 [INFO] Matched 32/32 teams
+2026-02-27 07:37:51,840 [WARNING] Fuzzy match: 'St Louis Blues' ↔ 'St. Louis Blues' (confidence: 0.97) — VERIFY MANUALLY
+2026-02-27 07:37:51,840 [WARNING] Fuzzy match: 'Montréal Canadiens' ↔ 'Montreal Canadiens' (confidence: 0.94) — VERIFY MANUALLY
+2026-02-27 07:37:51,841 [INFO] icehockey_nhl_championship_winner: 0 signals found
+2026-02-27 07:37:52,477 [INFO] Odds API: golf_masters_tournament_winner — 1 events, requests used/remaining: 165/335
+2026-02-27 07:37:52,477 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 07:37:52,477 [WARNING] High overround: 57.3% — data suspect
+2026-02-27 07:37:52,477 [WARNING] High overround: 70.9% — data suspect
+2026-02-27 07:37:52,477 [WARNING] High overround: 71.5% — data suspect
+2026-02-27 07:37:52,477 [WARNING] High overround: 62.4% — data suspect
+2026-02-27 07:37:52,478 [INFO] golf_masters_tournament_winner: 6 bookmakers, 99 teams
+2026-02-27 07:37:52,478 [WARNING] golf_masters_tournament_winner: total fair prob = 1.066 (expected ~1.0)
+2026-02-27 07:37:53,520 [INFO] Matched 58/99 teams
+2026-02-27 07:37:53,520 [WARNING] Unmatched bookmaker teams: ['Christopher Gotterup', 'Ben Griffin', 'Si Woo Kim', 'Jacob Bridgeman', 'Marco Penge', 'Joohyung Kim', 'Harris English', 'J. J. Spaun', 'Alexander Noren', 'Matt McCarty']
+2026-02-27 07:37:53,521 [WARNING] Fuzzy match: 'Matthew Fitzpatrick' ↔ 'Matt Fitzpatrick' (confidence: 0.91) — VERIFY MANUALLY
+2026-02-27 07:37:53,532 [INFO] golf_masters_tournament_winner: 0 signals found
+2026-02-27 07:37:54,034 [INFO] No signals this scan
+2026-02-27 07:37:54,034 [INFO] Next scan in 3600s
+2026-02-27 07:39:14,146 [INFO] ==================================================
+2026-02-27 07:39:14,147 [INFO] Odds Bot v2.0 — VIRTUAL TRADING
+2026-02-27 07:39:14,147 [INFO] Min edge: 3.0%
+2026-02-27 07:39:14,148 [INFO] Scan interval: 3600s
+2026-02-27 07:39:14,148 [INFO] ==================================================
+2026-02-27 07:39:14,258 [INFO] --- Scan #1 ---
+2026-02-27 07:39:14,617 [INFO] Odds API: basketball_nba_championship_winner — 1 events, requests used/remaining: 169/331
+2026-02-27 07:39:14,617 [INFO] basketball_nba_championship_winner: 7 bookmakers, 30 teams
+2026-02-27 07:39:15,385 [INFO] Matched 30/30 teams
+2026-02-27 07:39:15,387 [INFO] basketball_nba_championship_winner: 1 signals found
+2026-02-27 07:39:16,015 [INFO] Odds API: icehockey_nhl_championship_winner — 1 events, requests used/remaining: 173/327
+2026-02-27 07:39:16,015 [INFO] icehockey_nhl_championship_winner: 8 bookmakers, 32 teams
+2026-02-27 07:39:16,749 [INFO] Matched 32/32 teams
+2026-02-27 07:39:16,749 [WARNING] Fuzzy match: 'St Louis Blues' ↔ 'St. Louis Blues' (confidence: 0.97) — VERIFY MANUALLY
+2026-02-27 07:39:16,749 [WARNING] Fuzzy match: 'Montréal Canadiens' ↔ 'Montreal Canadiens' (confidence: 0.94) — VERIFY MANUALLY
+2026-02-27 07:39:16,749 [INFO] icehockey_nhl_championship_winner: 0 signals found
+2026-02-27 07:39:17,404 [INFO] Odds API: golf_masters_tournament_winner — 1 events, requests used/remaining: 177/323
+2026-02-27 07:39:17,404 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 07:39:17,404 [WARNING] High overround: 57.3% — data suspect
+2026-02-27 07:39:17,404 [WARNING] High overround: 70.9% — data suspect
+2026-02-27 07:39:17,404 [WARNING] High overround: 71.5% — data suspect
+2026-02-27 07:39:17,404 [WARNING] High overround: 62.4% — data suspect
+2026-02-27 07:39:17,405 [INFO] golf_masters_tournament_winner: 6 bookmakers, 99 teams
+2026-02-27 07:39:17,405 [WARNING] golf_masters_tournament_winner: total fair prob = 1.066 (expected ~1.0)
+2026-02-27 07:39:18,367 [INFO] Matched 58/99 teams
+2026-02-27 07:39:18,368 [WARNING] Unmatched bookmaker teams: ['Christopher Gotterup', 'Ben Griffin', 'Si Woo Kim', 'Jacob Bridgeman', 'Marco Penge', 'Joohyung Kim', 'Harris English', 'J. J. Spaun', 'Alexander Noren', 'Matt McCarty']
+2026-02-27 07:39:18,369 [WARNING] Fuzzy match: 'Matthew Fitzpatrick' ↔ 'Matt Fitzpatrick' (confidence: 0.91) — VERIFY MANUALLY
+2026-02-27 07:39:18,369 [INFO] golf_masters_tournament_winner: 1 signals found
+2026-02-27 07:39:20,986 [INFO] Signals: 2 found and sent
+2026-02-27 07:39:20,986 [INFO] Next scan in 3600s
+2026-02-27 08:39:21,057 [INFO] --- Scan #2 ---
+2026-02-27 08:39:23,413 [INFO] Matched 30/30 teams
+2026-02-27 08:39:23,413 [INFO] basketball_nba_championship_winner: 1 signals found
+2026-02-27 08:39:24,679 [INFO] Matched 32/32 teams
+2026-02-27 08:39:24,689 [WARNING] Fuzzy match: 'St Louis Blues' ↔ 'St. Louis Blues' (confidence: 0.97) — VERIFY MANUALLY
+2026-02-27 08:39:24,689 [WARNING] Fuzzy match: 'Montréal Canadiens' ↔ 'Montreal Canadiens' (confidence: 0.94) — VERIFY MANUALLY
+2026-02-27 08:39:24,689 [INFO] icehockey_nhl_championship_winner: 0 signals found
+2026-02-27 08:39:26,088 [INFO] Matched 58/99 teams
+2026-02-27 08:39:26,089 [WARNING] Unmatched bookmaker teams: ['Christopher Gotterup', 'Ben Griffin', 'Si Woo Kim', 'Jacob Bridgeman', 'Marco Penge', 'Joohyung Kim', 'Harris English', 'J. J. Spaun', 'Alexander Noren', 'Matt McCarty']
+2026-02-27 08:39:26,089 [WARNING] Fuzzy match: 'Matthew Fitzpatrick' ↔ 'Matt Fitzpatrick' (confidence: 0.91) — VERIFY MANUALLY
+2026-02-27 08:39:26,089 [INFO] golf_masters_tournament_winner: 1 signals found
+2026-02-27 08:39:28,862 [INFO] Signals: 2 found and sent
+2026-02-27 08:39:28,862 [INFO] Next scan in 3600s
+2026-02-27 09:00:20,785 [INFO] ==================================================
+2026-02-27 09:00:20,786 [INFO] Odds Bot v2.0 — VIRTUAL TRADING
+2026-02-27 09:00:20,786 [INFO] Min edge: 3.0%
+2026-02-27 09:00:20,786 [INFO] Scan interval: 3600s
+2026-02-27 09:00:20,786 [INFO] ==================================================
+2026-02-27 09:00:20,875 [INFO] --- Scan #1 ---
+2026-02-27 09:00:21,182 [INFO] Odds API: basketball_nba_championship_winner — 1 events, requests used/remaining: 181/319
+2026-02-27 09:00:21,183 [INFO] basketball_nba_championship_winner: 7 bookmakers, 30 teams
+2026-02-27 09:00:21,750 [INFO] Matched 30/30 teams
+2026-02-27 09:00:21,750 [INFO] basketball_nba_championship_winner: 1 signals found
+2026-02-27 09:00:22,374 [INFO] Odds API: icehockey_nhl_championship_winner — 1 events, requests used/remaining: 185/315
+2026-02-27 09:00:22,378 [INFO] icehockey_nhl_championship_winner: 8 bookmakers, 32 teams
+2026-02-27 09:00:23,061 [INFO] Matched 32/32 teams
+2026-02-27 09:00:23,062 [WARNING] Fuzzy match: 'St Louis Blues' ↔ 'St. Louis Blues' (confidence: 0.97) — VERIFY MANUALLY
+2026-02-27 09:00:23,062 [WARNING] Fuzzy match: 'Montréal Canadiens' ↔ 'Montreal Canadiens' (confidence: 0.94) — VERIFY MANUALLY
+2026-02-27 09:00:23,062 [INFO] icehockey_nhl_championship_winner: 0 signals found
+2026-02-27 09:00:23,699 [INFO] Odds API: golf_masters_tournament_winner — 1 events, requests used/remaining: 189/311
+2026-02-27 09:00:23,699 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 09:00:23,699 [WARNING] High overround: 57.3% — data suspect
+2026-02-27 09:00:23,700 [WARNING] High overround: 70.9% — data suspect
+2026-02-27 09:00:23,700 [WARNING] High overround: 71.5% — data suspect
+2026-02-27 09:00:23,701 [WARNING] High overround: 62.4% — data suspect
+2026-02-27 09:00:23,701 [INFO] golf_masters_tournament_winner: 6 bookmakers, 99 teams
+2026-02-27 09:00:23,702 [WARNING] golf_masters_tournament_winner: total fair prob = 1.066 (expected ~1.0)
+2026-02-27 09:00:24,713 [INFO] Matched 58/99 teams
+2026-02-27 09:00:24,713 [WARNING] Unmatched bookmaker teams: ['Christopher Gotterup', 'Ben Griffin', 'Si Woo Kim', 'Jacob Bridgeman', 'Marco Penge', 'Joohyung Kim', 'Harris English', 'J. J. Spaun', 'Alexander Noren', 'Matt McCarty']
+2026-02-27 09:00:24,713 [WARNING] Fuzzy match: 'Matthew Fitzpatrick' ↔ 'Matt Fitzpatrick' (confidence: 0.91) — VERIFY MANUALLY
+2026-02-27 09:00:24,713 [INFO] golf_masters_tournament_winner: 1 signals found
+2026-02-27 09:00:27,356 [INFO] Signals: 2 found and sent
+2026-02-27 09:00:27,356 [INFO] Next scan in 3600s
+2026-02-27 09:04:28,943 [INFO] ==================================================
+2026-02-27 09:04:28,944 [INFO] Odds Bot v2.0 — VIRTUAL TRADING
+2026-02-27 09:04:28,944 [INFO] Min edge: 3.0%
+2026-02-27 09:04:28,944 [INFO] Scan interval: 3600s
+2026-02-27 09:04:28,944 [INFO] ==================================================
+2026-02-27 09:04:29,047 [INFO] --- Scan #1 ---
+2026-02-27 09:04:29,406 [INFO] Odds API: basketball_nba_championship_winner — 1 events, requests used/remaining: 197/303
+2026-02-27 09:04:29,407 [INFO] basketball_nba_championship_winner: 7 bookmakers, 30 teams
+2026-02-27 09:04:30,631 [INFO] Matched 30/30 teams
+2026-02-27 09:04:30,631 [INFO] basketball_nba_championship_winner: 1 signals found
+2026-02-27 09:04:31,270 [INFO] Odds API: icehockey_nhl_championship_winner — 1 events, requests used/remaining: 201/299
+2026-02-27 09:04:31,271 [INFO] icehockey_nhl_championship_winner: 8 bookmakers, 32 teams
+2026-02-27 09:04:32,252 [INFO] Matched 32/32 teams
+2026-02-27 09:04:32,252 [WARNING] Fuzzy match: 'St Louis Blues' ↔ 'St. Louis Blues' (confidence: 0.97) — VERIFY MANUALLY
+2026-02-27 09:04:32,253 [WARNING] Fuzzy match: 'Montréal Canadiens' ↔ 'Montreal Canadiens' (confidence: 0.94) — VERIFY MANUALLY
+2026-02-27 09:04:32,253 [INFO] icehockey_nhl_championship_winner: 0 signals found
+2026-02-27 09:04:32,911 [INFO] Odds API: golf_masters_tournament_winner — 1 events, requests used/remaining: 205/295
+2026-02-27 09:04:32,911 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 09:04:32,912 [WARNING] High overround: 57.3% — data suspect
+2026-02-27 09:04:32,912 [WARNING] High overround: 70.9% — data suspect
+2026-02-27 09:04:32,912 [WARNING] High overround: 71.5% — data suspect
+2026-02-27 09:04:32,913 [WARNING] High overround: 62.4% — data suspect
+2026-02-27 09:04:32,913 [INFO] golf_masters_tournament_winner: 6 bookmakers, 99 teams
+2026-02-27 09:04:32,914 [WARNING] golf_masters_tournament_winner: total fair prob = 1.066 (expected ~1.0)
+2026-02-27 09:04:33,832 [INFO] Matched 59/99 teams
+2026-02-27 09:04:33,833 [WARNING] Unmatched bookmaker teams: ['Christopher Gotterup', 'Ben Griffin', 'Si Woo Kim', 'Jacob Bridgeman', 'Marco Penge', 'Harris English', 'J. J. Spaun', 'Alexander Noren', 'Matt McCarty', 'Ryan Fox']
+2026-02-27 09:04:33,833 [INFO] golf_masters_tournament_winner: 1 signals found
+2026-02-27 09:04:36,518 [INFO] Signals: 2 found and sent
+2026-02-27 09:04:36,518 [INFO] Next scan in 3600s
+2026-02-27 09:08:14,459 [INFO] ==================================================
+2026-02-27 09:08:14,460 [INFO] Odds Bot v2.0 — VIRTUAL TRADING
+2026-02-27 09:08:14,460 [INFO] Min edge: 3.0%
+2026-02-27 09:08:14,460 [INFO] Scan interval: 3600s
+2026-02-27 09:08:14,460 [INFO] ==================================================
+2026-02-27 09:08:14,604 [INFO] --- Scan #1 ---
+2026-02-27 09:08:14,923 [INFO] Odds API: basketball_nba_championship_winner — 1 events, requests used/remaining: 213/287
+2026-02-27 09:08:14,924 [INFO] basketball_nba_championship_winner: 7 bookmakers, 30 teams
+2026-02-27 09:08:15,634 [INFO] Matched 30/30 teams
+2026-02-27 09:08:15,635 [INFO] basketball_nba_championship_winner: 1 signals found
+2026-02-27 09:08:16,259 [INFO] Odds API: icehockey_nhl_championship_winner — 1 events, requests used/remaining: 217/283
+2026-02-27 09:08:16,259 [INFO] icehockey_nhl_championship_winner: 8 bookmakers, 32 teams
+2026-02-27 09:08:17,088 [INFO] Matched 32/32 teams
+2026-02-27 09:08:17,089 [WARNING] Fuzzy match: 'St Louis Blues' ↔ 'St. Louis Blues' (confidence: 0.97) — VERIFY MANUALLY
+2026-02-27 09:08:17,089 [WARNING] Fuzzy match: 'Montréal Canadiens' ↔ 'Montreal Canadiens' (confidence: 0.94) — VERIFY MANUALLY
+2026-02-27 09:08:17,089 [INFO] icehockey_nhl_championship_winner: 0 signals found
+2026-02-27 09:08:17,727 [INFO] Odds API: golf_masters_tournament_winner — 1 events, requests used/remaining: 221/279
+2026-02-27 09:08:17,727 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 09:08:17,727 [WARNING] High overround: 57.3% — data suspect
+2026-02-27 09:08:17,727 [WARNING] High overround: 70.9% — data suspect
+2026-02-27 09:08:17,727 [WARNING] High overround: 71.5% — data suspect
+2026-02-27 09:08:17,727 [WARNING] High overround: 62.4% — data suspect
+2026-02-27 09:08:17,728 [INFO] golf_masters_tournament_winner: 6 bookmakers, 99 teams
+2026-02-27 09:08:17,728 [WARNING] golf_masters_tournament_winner: total fair prob = 1.066 (expected ~1.0)
+2026-02-27 09:08:18,925 [INFO] Matched 59/99 teams
+2026-02-27 09:08:18,925 [WARNING] Unmatched bookmaker teams: ['Christopher Gotterup', 'Ben Griffin', 'Si Woo Kim', 'Jacob Bridgeman', 'Marco Penge', 'Harris English', 'J. J. Spaun', 'Alexander Noren', 'Matt McCarty', 'Ryan Fox']
+2026-02-27 09:08:18,926 [INFO] golf_masters_tournament_winner: 1 signals found
+2026-02-27 09:08:21,640 [INFO] Signals: 2 found and sent
+2026-02-27 09:08:21,640 [INFO] Next scan in 3600s
+2026-02-27 09:11:07,197 [INFO] ==================================================
+2026-02-27 09:11:07,198 [INFO] Odds Bot v2.0 — VIRTUAL TRADING
+2026-02-27 09:11:07,198 [INFO] Min edge: 3.0%
+2026-02-27 09:11:07,198 [INFO] Scan interval: 3600s
+2026-02-27 09:11:07,198 [INFO] ==================================================
+2026-02-27 09:11:07,301 [INFO] --- Scan #1 ---
+2026-02-27 09:11:07,600 [INFO] Odds API: basketball_nba_championship_winner — 1 events, requests used/remaining: 225/275
+2026-02-27 09:11:07,601 [INFO] basketball_nba_championship_winner: 7 bookmakers, 30 teams
+2026-02-27 09:11:08,464 [INFO] Matched 30/30 teams
+2026-02-27 09:11:08,464 [INFO] basketball_nba_championship_winner: 1 signals found
+2026-02-27 09:11:09,087 [INFO] Odds API: icehockey_nhl_championship_winner — 1 events, requests used/remaining: 229/271
+2026-02-27 09:11:09,087 [INFO] icehockey_nhl_championship_winner: 8 bookmakers, 32 teams
+2026-02-27 09:11:09,789 [INFO] Matched 32/32 teams
+2026-02-27 09:11:09,789 [WARNING] Fuzzy match: 'St Louis Blues' ↔ 'St. Louis Blues' (confidence: 0.97) — VERIFY MANUALLY
+2026-02-27 09:11:09,789 [WARNING] Fuzzy match: 'Montréal Canadiens' ↔ 'Montreal Canadiens' (confidence: 0.94) — VERIFY MANUALLY
+2026-02-27 09:11:09,791 [INFO] icehockey_nhl_championship_winner: 0 signals found
+2026-02-27 09:11:10,437 [INFO] Odds API: golf_masters_tournament_winner — 1 events, requests used/remaining: 233/267
+2026-02-27 09:11:10,438 [WARNING] High overround: 64.4% — data suspect
+2026-02-27 09:11:10,440 [WARNING] High overround: 57.3% — data suspect
+2026-02-27 09:11:10,441 [WARNING] High overround: 70.9% — data suspect
+2026-02-27 09:11:10,443 [WARNING] High overround: 71.5% — data suspect
+2026-02-27 09:11:10,446 [WARNING] High overround: 62.4% — data suspect
+2026-02-27 09:11:10,449 [INFO] golf_masters_tournament_winner: 6 bookmakers, 99 teams
+2026-02-27 09:11:10,450 [WARNING] golf_masters_tournament_winner: total fair prob = 1.066 (expected ~1.0)
+2026-02-27 09:11:11,337 [INFO] Matched 59/99 teams
+2026-02-27 09:11:11,337 [WARNING] Unmatched bookmaker teams: ['Christopher Gotterup', 'Ben Griffin', 'Si Woo Kim', 'Jacob Bridgeman', 'Marco Penge', 'Harris English', 'J. J. Spaun', 'Alexander Noren', 'Matt McCarty', 'Ryan Fox']
+2026-02-27 09:11:11,337 [INFO] golf_masters_tournament_winner: 1 signals found
+2026-02-27 09:11:11,839 [INFO] New signal: NBA Champion|San Antonio Spurs|BUY NO
+2026-02-27 09:11:11,840 [INFO] New signal: The Masters - Winner|Scottie Scheffler|BUY NO
+2026-02-27 09:11:13,961 [INFO] Signals: 2 new, 0 duplicates skipped
+2026-02-27 09:11:13,962 [INFO] Next scan in 3600s

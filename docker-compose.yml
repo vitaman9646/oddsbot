@@ -1,0 +1,9 @@
+services:
+  odds-bot:
+    build: .
+    container_name: odds-scanner
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
