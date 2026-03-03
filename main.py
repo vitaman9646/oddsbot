@@ -3,7 +3,6 @@ import aiohttp
 import json
 import logging
 import os
-import time
 
 from config import CFG
 from strategy.comparator import Comparator
@@ -12,11 +11,11 @@ from notifications.telegram import send_telegram
 
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     handlers=[
         logging.StreamHandler(),
         logging.FileHandler(CFG.LOG_FILE),
-    ]
+    ],
 )
 logger = logging.getLogger("odds_bot.main")
 
@@ -32,14 +31,24 @@ async def main():
     os.makedirs("logs", exist_ok=True)
 
     logger.info("=" * 50)
-    logger.info("Odds Bot v2.0 — VIRTUAL TRADING")
+    logger.info("Odds Bot v3.0 — VIRTUAL TRADING")
     logger.info(f"Min edge: {CFG.MIN_EDGE_PCT}%")
+    logger.info(f"Min books: {CFG.MIN_BOOKS}")
+    logger.info(f"Min PM volume: ${CFG.MIN_VOLUME_USD}")
+    logger.info(f"Dedup threshold: {CFG.DEDUP_PRICE_THRESHOLD}")
     logger.info(f"Scan interval: {CFG.SCAN_INTERVAL}s")
+    logger.info(f"Outright markets: {len(CFG.OUTRIGHT_MARKETS)}")
     logger.info("=" * 50)
 
-    await send_telegram("?? Odds Bot v2.0 запущен\nРежим: VIRTUAL TRADING\nСпорт: Golf, NBA, NHL")
-
     async with aiohttp.ClientSession() as session:
+        await send_telegram(
+            "🤖 Odds Bot v3.0 запущен\n"
+            f"Режим: VIRTUAL TRADING\n"
+            f"Min edge: {CFG.MIN_EDGE_PCT}%\n"
+            f"Markets: {len(CFG.OUTRIGHT_MARKETS)} outright",
+            session,
+        )
+
         comparator = Comparator(session)
         scan_num = 0
 
@@ -49,33 +58,29 @@ async def main():
             try:
                 signals = await comparator.compare_all()
 
+                # Обновляем дедупликацию
                 active_keys = [
                     f"{s.sport}|{s.player}|{s.action}"
                     for s in signals
                 ]
                 clear_resolved(active_keys)
 
-                new_signals = [
-                    s for s in signals
-                    if is_new_or_changed(s)
-                ]
+                new_signals = [s for s in signals if is_new_or_changed(s)]
 
                 if new_signals:
-                    for signal in new_signals:
-                        log_signal(signal)
-                        await send_telegram(signal.format_alert(), session)
+                    for sig in new_signals:
+                        log_signal(sig)
+                        await send_telegram(sig.format_alert(), session)
                         await asyncio.sleep(1)
-                    logger.info(
-                        f"Signals: {len(new_signals)} new, "
-                        f"{len(signals) - len(new_signals)} duplicates skipped"
-                    )
-                else:
-                    logger.info(
-                        f"No new signals ({len(signals)} duplicates skipped)"
-                    )
+
+                logger.info(
+                    f"Results: {len(new_signals)} new signals, "
+                    f"{len(signals) - len(new_signals)} filtered by dedup, "
+                    f"total candidates: {len(signals)}"
+                )
 
             except Exception as e:
-                logger.error(f"Scan error: {e}")
+                logger.error(f"Scan error: {e}", exc_info=True)
 
             logger.info(f"Next scan in {CFG.SCAN_INTERVAL}s")
             await asyncio.sleep(CFG.SCAN_INTERVAL)
