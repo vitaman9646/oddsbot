@@ -32,6 +32,7 @@ async def main():
 
     logger.info("=" * 50)
     logger.info("Odds Bot v3.0 — VIRTUAL TRADING")
+    logger.info(f"API keys: {len(CFG.ODDS_API_KEYS)}")
     logger.info(f"Min edge: {CFG.MIN_EDGE_PCT}%")
     logger.info(f"Min books: {CFG.MIN_BOOKS}")
     logger.info(f"Min PM volume: ${CFG.MIN_VOLUME_USD}")
@@ -41,24 +42,38 @@ async def main():
     logger.info("=" * 50)
 
     async with aiohttp.ClientSession() as session:
+        comparator = Comparator(session)
+        key_status = comparator.fetcher.key_manager.get_status_text()
+
         await send_telegram(
-            "🤖 Odds Bot v3.0 запущен\n"
-            f"Режим: VIRTUAL TRADING\n"
+            "🤖 <b>Odds Bot v3.0 запущен</b>\n\n"
             f"Min edge: {CFG.MIN_EDGE_PCT}%\n"
-            f"Markets: {len(CFG.OUTRIGHT_MARKETS)} outright",
+            f"Markets: {len(CFG.OUTRIGHT_MARKETS)} outright\n"
+            f"Scan: every {CFG.SCAN_INTERVAL}s\n\n"
+            f"🔑 <b>API Keys:</b>\n<pre>{key_status}</pre>",
             session,
         )
 
-        comparator = Comparator(session)
         scan_num = 0
+        KEYS_REPORT_EVERY = 10  # отчёт о ключах каждые N сканов
 
         while True:
             scan_num += 1
             logger.info(f"--- Scan #{scan_num} ---")
+
+            # Проверяем есть ли ключи
+            total_remaining = comparator.fetcher.key_manager.get_total_remaining()
+            if total_remaining <= 0:
+                msg = "🚨 ALL API KEYS EXHAUSTED! Bot paused until next month."
+                logger.error(msg)
+                await send_telegram(msg, session)
+                # Ждём до конца дня и проверяем снова
+                await asyncio.sleep(86400)
+                continue
+
             try:
                 signals = await comparator.compare_all()
 
-                # Обновляем дедупликацию
                 active_keys = [
                     f"{s.sport}|{s.player}|{s.action}"
                     for s in signals
@@ -74,13 +89,23 @@ async def main():
                         await asyncio.sleep(1)
 
                 logger.info(
-                    f"Results: {len(new_signals)} new signals, "
-                    f"{len(signals) - len(new_signals)} filtered by dedup, "
-                    f"total candidates: {len(signals)}"
+                    f"Results: {len(new_signals)} new, "
+                    f"{len(signals) - len(new_signals)} dedup filtered, "
+                    f"total: {len(signals)} | "
+                    f"Keys left: {comparator.fetcher.key_manager.get_total_remaining()}"
                 )
 
             except Exception as e:
                 logger.error(f"Scan error: {e}", exc_info=True)
+
+            # Периодический отчёт о ключах
+            if scan_num % KEYS_REPORT_EVERY == 0:
+                status = comparator.fetcher.key_manager.get_status_text()
+                await send_telegram(
+                    f"🔑 <b>Keys report (scan #{scan_num}):</b>\n"
+                    f"<pre>{status}</pre>",
+                    session,
+                )
 
             logger.info(f"Next scan in {CFG.SCAN_INTERVAL}s")
             await asyncio.sleep(CFG.SCAN_INTERVAL)
