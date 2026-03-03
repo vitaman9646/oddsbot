@@ -1,71 +1,59 @@
-import json
-import os
-import time
 import logging
+from typing import Optional
+
+from config import CFG
 
 logger = logging.getLogger("odds_bot.dedup")
 
-SIGNALS_FILE = "data/seen_signals.json"
+# {signal_key: {"entry_price": float, "edge_pct": float, "action": str}}
+_cache: dict[str, dict] = {}
 
 
-def _load_seen() -> dict:
-    if not os.path.exists(SIGNALS_FILE):
-        return {}
-    try:
-        with open(SIGNALS_FILE) as f:
-            return json.load(f)
-    except Exception:
-        return {}
+def _make_key(signal) -> str:
+    return f"{signal.sport}|{signal.player}|{signal.action}"
 
 
-def _save_seen(seen: dict):
-    os.makedirs("data", exist_ok=True)
-    with open(SIGNALS_FILE, "w") as f:
-        json.dump(seen, f)
-
-
-def is_new_or_changed(signal, threshold_pct: float = 1.0) -> bool:
+def is_new_or_changed(signal) -> bool:
     """
-    Возвращает True если сигнал новый или
-    спред изменился более чем на threshold_pct.
+    Возвращает True если сигнал новый или существенно изменился.
+    Порог изменения: DEDUP_PRICE_THRESHOLD (по умолчанию 0.02 = 2 цента).
     """
-    seen = _load_seen()
-    key = f"{signal.sport}|{signal.player}|{signal.action}"
+    key = _make_key(signal)
+    prev = _cache.get(key)
 
-    if key not in seen:
-        seen[key] = {
-            "spread_pct": signal.spread_pct,
-            "ts": time.time(),
+    if prev is None:
+        # Новый сигнал
+        _cache[key] = {
+            "entry_price": signal.entry_price,
+            "edge_pct": signal.edge_pct,
+            "action": signal.action,
         }
-        _save_seen(seen)
-        logger.info(f"New signal: {key}")
+        logger.debug(f"New signal: {key}")
         return True
 
-    old_spread = seen[key]["spread_pct"]
-    delta = abs(signal.spread_pct - old_spread)
+    # Проверяем существенное изменение цены
+    price_diff = abs(signal.entry_price - prev["entry_price"])
+    if price_diff < CFG.DEDUP_PRICE_THRESHOLD:
+        return False
 
-    if delta >= threshold_pct:
-        seen[key] = {
-            "spread_pct": signal.spread_pct,
-            "ts": time.time(),
-        }
-        _save_seen(seen)
-        logger.info(
-            f"Changed signal: {key} "
-            f"{old_spread:+.1f}% -> {signal.spread_pct:+.1f}%"
-        )
-        return True
-
-    logger.debug(f"Duplicate signal skipped: {key}")
-    return False
+    # Цена существенно изменилась — обновляем и пропускаем
+    logger.debug(
+        f"Updated signal: {key} | "
+        f"price {prev['entry_price']:.3f} → {signal.entry_price:.3f} | "
+        f"edge {prev['edge_pct']:.1f}% → {signal.edge_pct:.1f}%"
+    )
+    _cache[key] = {
+        "entry_price": signal.entry_price,
+        "edge_pct": signal.edge_pct,
+        "action": signal.action,
+    }
+    return True
 
 
 def clear_resolved(active_keys: list[str]):
-    """Удаляем из seen сигналы которых больше нет."""
-    seen = _load_seen()
-    removed = [k for k in seen if k not in active_keys]
-    for k in removed:
-        del seen[k]
-        logger.info(f"Resolved signal removed: {k}")
-    if removed:
-        _save_seen(seen)
+    """Удаляем из кэша сигналы которых больше нет в сканировании."""
+    active_set = set(active_keys)
+    stale = [k for k in _cache if k not in active_set]
+    for k in stale:
+        logger.debug(f"Cleared stale signal: {k}")
+        del _cache[k]
